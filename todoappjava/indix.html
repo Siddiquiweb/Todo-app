@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+</style>
+
+<body>
+    <div class="heading">
+        <h2 style="color:white; outline-style: dashed; outline-color: white; margin-top: 10px;">
+            <span>Todo list App</span>
+        </h2>
+        <div id="container">
+            <div id="display">
+
+                <input type="text" style="display: flex; justify-content: center;align-items: center;" id="todo-input">
+
+                <button onclick="addtodo()">add items</button>
+                <button onclick="deletetodo()">Delete All items</button>
+
+                <ol style="text-align: center;list-style: none;" id="listItems"></ol>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="op.js"></script>
+</body>
+
+</html>
